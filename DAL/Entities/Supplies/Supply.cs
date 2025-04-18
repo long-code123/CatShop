@@ -1,6 +1,6 @@
-﻿using DAL.Enums;
+﻿using DAL.Constants;
 
-namespace DAL.Entities
+namespace DAL.Entities.Supplies
 {
     public class Supply : BaseEntity
     {

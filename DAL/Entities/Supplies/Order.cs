@@ -1,6 +1,7 @@
-﻿using DAL.Enums;
+﻿using DAL.Constants;
+using DAL.Entities.Human;
 
-namespace DAL.Entities
+namespace DAL.Entities.Supplies
 {
     public class Order : BaseEntity
     {

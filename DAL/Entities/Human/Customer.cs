@@ -1,7 +1,7 @@
-﻿using DAL.Enums;
+﻿using DAL.Constants;
 
-namespace DAL.Entities
-{   
+namespace DAL.Entities.Human
+{
     public class Customer : BaseEntity
     {
         public string Name { get; set; }

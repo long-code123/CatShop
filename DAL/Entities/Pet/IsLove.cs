@@ -1,4 +1,6 @@
-﻿namespace DAL.Entities
+﻿using DAL.Entities.Human;
+
+namespace DAL.Entities.Pet
 {
     public class IsLove : BaseEntity
     {
