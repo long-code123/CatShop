@@ -2,8 +2,8 @@
 {
     public enum LoginType
     {
-        Password = 1,
-        Google = 2
+        Password = 0,
+        Google = 1
 
     }
 }
