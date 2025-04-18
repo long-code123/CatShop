@@ -1,4 +1,6 @@
 ﻿using DAL.Constants;
+using DAL.Entities.Pet;
+using DAL.Entities.Supplies;
 
 namespace DAL.Entities.Human
 {
@@ -10,5 +12,8 @@ namespace DAL.Entities.Human
         public string Email { get; set; }
         public string Password { get; set; }
         public LoginType LoginType { get; set; }
+
+        public ICollection<IsLove> IsLoves { get; set; }
+        public ICollection<Order> Orders { get; set; }
     }
 }
