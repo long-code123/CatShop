@@ -6,10 +6,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Repositories\Implementations\" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.15">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,6 +17,13 @@
 		</PackageReference>
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Repositories\Implementations\Human\" />
+	  <Folder Include="Repositories\Implementations\Shop\" />
+	  <Folder Include="Repositories\Interfaces\Human\" />
+	  <Folder Include="Repositories\Interfaces\Shop\" />
 	</ItemGroup>
 
 </Project>
