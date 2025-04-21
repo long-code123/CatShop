@@ -3,6 +3,7 @@ using DAL.Entities.Human;
 using DAL.Entities.Pet;
 using DAL.Entities.Supplies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace DAL
 {
@@ -22,6 +23,17 @@ namespace DAL
 
         #endregion
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Presentation"))
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            
+            IConfigurationRoot configuration = builder.Build();
+
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("CatShopConnectionSQLServer"));
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             var configurations = typeof(DataContext).Assembly.ExportedTypes
@@ -32,6 +44,8 @@ namespace DAL
             foreach (var configuration in configurations)
             {
                 configuration.OnModelCreating(modelBuilder);
+
+                //configuration.Seeding(modelBuilder);
             }
         }
     }
