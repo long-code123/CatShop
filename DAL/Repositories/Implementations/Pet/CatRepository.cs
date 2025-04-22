@@ -3,13 +3,13 @@ using DAL.Repositories.Interfaces.Pet;
 
 namespace DAL.Repositories.Implementations.Pet
 {
-    public class CatService : ICatRepository
+    public class CatRepository : ICatRepository
     {
         private readonly DataContext dataContext;
         
-        public CatService() { }
+        public CatRepository() { }
 
-        public CatService(DataContext dataContext)
+        public CatRepository(DataContext dataContext)
         {
             this.dataContext = dataContext;
         }
@@ -22,15 +22,10 @@ namespace DAL.Repositories.Implementations.Pet
             return number_rows;
         }
 
-        public int UpdateCat(Cat entity, int id)
+        public int UpdateCat(Cat entity)
         {
-            Cat cat = dataContext.Cats.Where(cat => cat.Id == id).FirstOrDefault();
-            cat.Name = entity.Name;
-            cat.Age = entity.Age;
-            cat.Category = entity.Category;
-            cat.Image = entity.Image;
-            cat.Description = entity.Description;
-            cat.IsSold = entity.IsSold;
+            //dataContext.Entry(entity).State = EntityState.Modified;
+            dataContext.Update(entity);
 
             int number_rows = dataContext.SaveChanges();
             return number_rows;
@@ -47,7 +42,7 @@ namespace DAL.Repositories.Implementations.Pet
 
         public IQueryable<Cat> GetAllCats()
         {
-            IQueryable<Cat> cats = dataContext.Cats.Select(cat => cat);
+            IQueryable<Cat> cats = dataContext.Cats;
 
             return cats;
         }

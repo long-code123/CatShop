@@ -20,9 +20,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Repositories\Implementations\Human\" />
 	  <Folder Include="Repositories\Implementations\Shop\" />
-	  <Folder Include="Repositories\Interfaces\Human\" />
 	  <Folder Include="Repositories\Interfaces\Shop\" />
 	</ItemGroup>
 

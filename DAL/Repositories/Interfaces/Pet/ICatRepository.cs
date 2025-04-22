@@ -2,10 +2,10 @@
 
 namespace DAL.Repositories.Interfaces.Pet
 {
-    internal interface ICatRepository
+    public interface ICatRepository
     {
         int CreateCat(Cat entity);
-        int UpdateCat(Cat entity, int id);
+        int UpdateCat(Cat entity);
         int DeleteCat(int id);
         IQueryable<Cat> GetAllCats();
     }
