@@ -6,8 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\Implementations\" />
-    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Implementations\Shop\" />
+    <Folder Include="Services\Implementations\Pet\" />
+    <Folder Include="Services\Interfaces\Pet\" />
+    <Folder Include="Services\Interfaces\Shop\" />
   </ItemGroup>
 
   <ItemGroup>
