@@ -1,4 +1,4 @@
-﻿namespace DTOs.Utils
+﻿namespace BLL.Utilities
 {
     public static class PasswordUtil
     {
