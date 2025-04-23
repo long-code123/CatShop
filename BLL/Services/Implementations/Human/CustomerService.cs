@@ -23,7 +23,7 @@ namespace BLL.Services.Implementations.Human
             bool isPasswordValid = PasswordUtil.VerifyPassword(loginRequest.Password, customer.Password);
             if (isPasswordValid)
             {
-                return new LoginResponse{ Name = customer.Name };
+                return new LoginResponse { Name = customer.Name };
             }
             else return null;
         }

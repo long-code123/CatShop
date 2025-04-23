@@ -25,13 +25,16 @@ namespace DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Presentation"))
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-            
-            IConfigurationRoot configuration = builder.Build();
+            if (!optionsBuilder.IsConfigured)
+            {
+                var builder = new ConfigurationBuilder()
+                    .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Presentation"))
+                    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
-            optionsBuilder.UseSqlServer(configuration.GetConnectionString("CatShopConnectionSQLServer"));
+                IConfigurationRoot configuration = builder.Build();
+
+                optionsBuilder.UseSqlServer(configuration.GetConnectionString("CatShopConnectionSQLServer"));
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

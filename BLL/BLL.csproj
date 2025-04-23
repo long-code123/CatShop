@@ -1,24 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\Implementations\Shop\" />
-    <Folder Include="Services\Implementations\Pet\" />
-    <Folder Include="Services\Interfaces\Pet\" />
-    <Folder Include="Services\Interfaces\Shop\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Services\Implementations\Shop\" />
+		<Folder Include="Services\Implementations\Pet\" />
+		<Folder Include="Services\Interfaces\Pet\" />
+		<Folder Include="Services\Interfaces\Shop\" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj" />
-    <ProjectReference Include="..\DTOs\DTOs.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\DAL\DAL.csproj" />
+		<ProjectReference Include="..\DTOs\DTOs.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+	</ItemGroup>
 
 </Project>

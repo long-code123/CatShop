@@ -16,10 +16,10 @@ namespace Presentation.Controllers.Human
         }
 
         [HttpPost("login")]
-        public  ActionResult<LoginResponse> Login([FromBody] LoginRequest loginRequest)
+        public ActionResult<LoginResponse> Login([FromBody] LoginRequest loginRequest)
         {
             var response = customerService.Login(loginRequest);
-            if(response == null) return Unauthorized(new {message = "Wrong email or password"});
+            if (response == null) return Unauthorized(new { message = "Wrong email or password" });
 
             return Ok(response);
         }
