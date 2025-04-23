@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -12,6 +11,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Shop\" />
+    <Folder Include="Controllers\Pet\" />
   </ItemGroup>
 
 </Project>

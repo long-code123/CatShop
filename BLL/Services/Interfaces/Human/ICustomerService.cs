@@ -6,6 +6,6 @@ namespace BLL.Services.Interfaces.Human
     public interface ICustomerService
     {
         void Register(Customer customer);
-        LoginResponseDto Login(LoginRequestDto loginRequestDto);
+        LoginResponse Login(LoginRequest loginRequest);
     }
 }

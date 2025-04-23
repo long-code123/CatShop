@@ -1,8 +1,8 @@
 ﻿using BLL.Services.Interfaces.Human;
+using BLL.Utilities;
 using DAL.Entities.Human;
 using DAL.Repositories.Interfaces.Human;
 using DTOs.Human;
-using DTOs.Utils;
 
 namespace BLL.Services.Implementations.Human
 {
@@ -17,13 +17,13 @@ namespace BLL.Services.Implementations.Human
 
         public CustomerService() { }
 
-        public LoginResponseDto Login(LoginRequestDto loginRequestDto)
+        public LoginResponse Login(LoginRequest loginRequest)
         {
-            Customer customer = customerRepository.GetCustomerByEmail(loginRequestDto.Email);
-            bool isPasswordValid = PasswordUtil.VerifyPassword(loginRequestDto.Password, customer.Password);
+            Customer customer = customerRepository.GetCustomerByEmail(loginRequest.Email);
+            bool isPasswordValid = PasswordUtil.VerifyPassword(loginRequest.Password, customer.Password);
             if (isPasswordValid)
             {
-                return new LoginResponseDto { Name = customer.Name };
+                return new LoginResponse{ Name = customer.Name };
             }
             else return null;
         }
