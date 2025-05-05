@@ -1,7 +1,7 @@
 ﻿using DAL.Constants;
 using DAL.Entities.Human;
 
-namespace DAL.Entities.Supplies
+namespace DAL.Entities.Shop
 {
     public class Order : BaseEntity
     {

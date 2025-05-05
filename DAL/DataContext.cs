@@ -1,7 +1,7 @@
 ﻿using DAL.Configurations;
 using DAL.Entities.Human;
 using DAL.Entities.Pet;
-using DAL.Entities.Supplies;
+using DAL.Entities.Shop;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -18,7 +18,9 @@ namespace DAL
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Cat> Cats { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<IsLove> IsLoves { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Supply> Supplies { get; set; }
 
         #endregion
@@ -47,8 +49,6 @@ namespace DAL
             foreach (var configuration in configurations)
             {
                 configuration.OnModelCreating(modelBuilder);
-
-                //configuration.Seeding(modelBuilder);
             }
         }
     }

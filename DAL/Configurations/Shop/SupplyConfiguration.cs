@@ -1,7 +1,7 @@
-﻿using DAL.Entities.Supplies;
+﻿using DAL.Entities.Shop;
 using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Configurations.Supplies
+namespace DAL.Configurations.Shop
 {
     public class SupplyConfiguration : IEntityConfiguration
     {

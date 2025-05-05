@@ -1,4 +1,4 @@
-﻿namespace DAL.Entities.Supplies
+﻿namespace DAL.Entities.Shop
 {
     public class OrderDetail : BaseEntity
     {

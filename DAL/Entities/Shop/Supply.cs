@@ -1,6 +1,6 @@
 ﻿using DAL.Constants;
 
-namespace DAL.Entities.Supplies
+namespace DAL.Entities.Shop
 {
     public class Supply : BaseEntity
     {

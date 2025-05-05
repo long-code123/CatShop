@@ -63,121 +63,121 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             Address = "Hanoi",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "alice@example.com",
                             LoginType = 1,
                             Name = "Alice Nguyen",
-                            Password = "password1",
+                            Password = "$2a$11$6J4lR0yC8IcHzc33LGUX7uJPtdpsYKvIL.Qgfg/Vv18XYqPetmi.e",
                             Phone = "0901234567",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 2,
                             Address = "Saigon",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "bob@example.com",
                             LoginType = 1,
                             Name = "Bob Tran",
-                            Password = "password2",
+                            Password = "$2a$11$QEKNyRiR06SAcxfmXw6ma.3zhg.kkqAQt14zFjKePcaQ/BwJrQqfi",
                             Phone = "0912345678",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 3,
                             Address = "Da Nang",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "charlie@example.com",
                             LoginType = 0,
                             Name = "Charlie Le",
-                            Password = "password3",
+                            Password = "$2a$11$88n7DgnMbjQJXmTuueIOAuJUck2BAiZfXsQDSL36YgUeCncMaDFkG",
                             Phone = "0923456789",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 4,
                             Address = "Can Tho",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "david@example.com",
                             LoginType = 1,
                             Name = "David Pham",
-                            Password = "password4",
+                            Password = "$2a$11$8DcelmAa3P508RfQPUt.Ju5JVUh/oAojD4i/v9hiSlejyttWBdCg2",
                             Phone = "0934567890",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 5,
                             Address = "Hue",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "evelyn@example.com",
                             LoginType = 0,
                             Name = "Evelyn Hoang",
-                            Password = "password5",
+                            Password = "$2a$11$NhoyEoQPgYTN47NTbV2DM.PTPsPVZdGxW.d4zQrc5tXnrYAm5VXkq",
                             Phone = "0945678901",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 6,
                             Address = "Vung Tau",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "frank@example.com",
                             LoginType = 1,
                             Name = "Frank Vo",
-                            Password = "password6",
+                            Password = "$2a$11$T5W7mu0A6TXPv5TUhDSRCOXEYrs18k4tuU2yJM12po7m/hq.CE2yS",
                             Phone = "0956789012",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 7,
                             Address = "Bien Hoa",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "grace@example.com",
                             LoginType = 0,
                             Name = "Grace Bui",
-                            Password = "password7",
+                            Password = "$2a$11$B44LvviD96qkQrsV9wt3F.G68vyPq7Lh6Zk0rcH8WV7md65w8ud7a",
                             Phone = "0967890123",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 8,
                             Address = "Hai Phong",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "henry@example.com",
                             LoginType = 0,
                             Name = "Henry Do",
-                            Password = "password8",
+                            Password = "$2a$11$R2rMA6P14knnOIxlb5t5GuJAAuUIsVa1Qndeye1Cg1.seH1OvlFFO",
                             Phone = "0978901234",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 9,
                             Address = "Nha Trang",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "isabella@example.com",
                             LoginType = 0,
                             Name = "Isabella Dang",
-                            Password = "password9",
+                            Password = "$2a$11$.qvTLYi4fzC8MJ2jouipk..A7FRpvuz9zmuGSMBSuH1HkNO8m7a56",
                             Phone = "0989012345",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         },
                         new
                         {
                             Id = 10,
                             Address = "Quy Nhon",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877),
                             Email = "jackie@example.com",
                             LoginType = 0,
                             Name = "Jackie Lam",
-                            Password = "password10",
+                            Password = "$2a$11$qgv/XgamLCh72RfutAOoUOu0fPwBMzATPgqhYeVa9RohgaiVebNJm",
                             Phone = "0990123456",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(4415)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 138, DateTimeKind.Local).AddTicks(877)
                         });
                 });
 
@@ -225,120 +225,120 @@ namespace DAL.Migrations
                             Id = 1,
                             Age = "2",
                             CategoryId = 1,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Playful Persian kitten",
                             Image = "milo.jpg",
                             IsSold = false,
                             Name = "Milo",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 2,
                             Age = "1",
                             CategoryId = 2,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Elegant Siamese cat",
                             Image = "luna.jpg",
                             IsSold = false,
                             Name = "Luna",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 3,
                             Age = "3",
                             CategoryId = 3,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Big and friendly Maine Coon",
                             Image = "leo.jpg",
                             IsSold = true,
                             Name = "Leo",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 4,
                             Age = "1",
                             CategoryId = 4,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Energetic Bengal cat",
                             Image = "zara.jpg",
                             IsSold = false,
                             Name = "Zara",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 5,
                             Age = "4",
                             CategoryId = 5,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Relaxed Ragdoll",
                             Image = "coco.jpg",
                             IsSold = true,
                             Name = "Coco",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 6,
                             Age = "2",
                             CategoryId = 6,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Plush British Shorthair",
                             Image = "tom.jpg",
                             IsSold = false,
                             Name = "Tom",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 7,
                             Age = "1",
                             CategoryId = 7,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Folded-ear cutie",
                             Image = "mimi.jpg",
                             IsSold = true,
                             Name = "Mimi",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 8,
                             Age = "2",
                             CategoryId = 8,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Hairless Sphynx",
                             Image = "nala.jpg",
                             IsSold = false,
                             Name = "Nala",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 9,
                             Age = "3",
                             CategoryId = 9,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Wild-looking Abyssinian",
                             Image = "simba.jpg",
                             IsSold = false,
                             Name = "Simba",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         },
                         new
                         {
                             Id = 10,
                             Age = "5",
                             CategoryId = 10,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267),
                             Description = "Big Norwegian climber",
                             Image = "oreo.jpg",
                             IsSold = true,
                             Name = "Oreo",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(7240)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(1267)
                         });
                 });
 
@@ -371,81 +371,81 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             CategoryName = "Persian Cat",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Long-haired, calm and gentle.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 2,
                             CategoryName = "Siamese Cat",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Elegant with striking blue eyes and short coat.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 3,
                             CategoryName = "Maine Coon",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "One of the largest domestic cats, fluffy and friendly.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 4,
                             CategoryName = "Bengal Cat",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Wild-looking coat, very active and playful.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 5,
                             CategoryName = "Ragdoll",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Blue-eyed and docile, loves to be cuddled.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 6,
                             CategoryName = "British Shorthair",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Stocky with a plush coat, very calm.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 7,
                             CategoryName = "Scottish Fold",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Known for its cute folded ears.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 8,
                             CategoryName = "Sphynx Cat",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Hairless breed, very affectionate and curious.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 9,
                             CategoryName = "Abyssinian",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Short coat with a wild, ticked fur pattern.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         },
                         new
                         {
                             Id = 10,
                             CategoryName = "Norwegian Forest Cat",
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040),
                             Description = "Thick coat, strong and agile climber.",
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(8618)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(3040)
                         });
                 });
 
@@ -482,81 +482,81 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             CatId = 1,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 1,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 2,
                             CatId = 2,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 2,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 3,
                             CatId = 3,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 3,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 4,
                             CatId = 4,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 4,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 5,
                             CatId = 5,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 5,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 6,
                             CatId = 6,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 6,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 7,
                             CatId = 7,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 7,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 8,
                             CatId = 8,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 8,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 9,
                             CatId = 9,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 9,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         },
                         new
                         {
                             Id = 10,
                             CatId = 10,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227),
                             CustomerId = 10,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 307, DateTimeKind.Local).AddTicks(3139)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 137, DateTimeKind.Local).AddTicks(9227)
                         });
                 });
 
@@ -590,82 +590,82 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 1,
                             PaymentStatus = 3,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 2,
                             PaymentStatus = 1,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 3,
                             PaymentStatus = 0,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 4,
                             PaymentStatus = 2,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 5,
                             PaymentStatus = 2,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 6,
                             PaymentStatus = 1,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 7,
                             PaymentStatus = 0,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 8,
                             PaymentStatus = 0,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 9,
                             PaymentStatus = 0,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         },
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768),
                             CustomerId = 10,
                             PaymentStatus = 1,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 305, DateTimeKind.Local).AddTicks(6743)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 135, DateTimeKind.Local).AddTicks(7768)
                         });
                 });
 
@@ -704,92 +704,92 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 1,
                             Quantity = 2,
                             SupplyId = 1,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 2,
                             Quantity = 1,
                             SupplyId = 3,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 3,
                             Quantity = 1,
                             SupplyId = 2,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 4,
                             Quantity = 1,
                             SupplyId = 4,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 5,
                             Quantity = 2,
                             SupplyId = 5,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 6,
                             Quantity = 3,
                             SupplyId = 6,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 7,
                             Quantity = 1,
                             SupplyId = 7,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 8,
                             Quantity = 2,
                             SupplyId = 8,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 9,
                             Quantity = 1,
                             SupplyId = 9,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         },
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159),
                             OrderId = 10,
                             Quantity = 2,
                             SupplyId = 10,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(3069)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(5159)
                         });
                 });
 
@@ -833,122 +833,122 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Premium dry cat food",
                             Image = "cat_food.jpg",
                             Name = "Cat Food",
                             Price = 12.5,
                             Quantity = 100,
                             TypeSupply = 0,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Easy clean litter box",
                             Image = "litter_box.jpg",
                             Name = "Litter Box",
                             Price = 20.0,
                             Quantity = 50,
                             TypeSupply = 3,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Pack of 10 toys",
                             Image = "cat_toys.jpg",
                             Name = "Cat Toys",
                             Price = 15.0,
                             Quantity = 200,
                             TypeSupply = 1,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Multi-level climbing tree",
                             Image = "cat_tree.jpg",
                             Name = "Cat Tree",
                             Price = 70.0,
                             Quantity = 30,
                             TypeSupply = 3,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Gentle cat shampoo",
                             Image = "cat_shampoo.jpg",
                             Name = "Cat Shampoo",
                             Price = 8.5,
                             Quantity = 40,
                             TypeSupply = 2,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Double bowl set",
                             Image = "food_bowl.jpg",
                             Name = "Food Bowl",
                             Price = 10.0,
                             Quantity = 100,
                             TypeSupply = 3,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Durable scratching post",
                             Image = "scratch_post.jpg",
                             Name = "Scratching Post",
                             Price = 25.0,
                             Quantity = 60,
                             TypeSupply = 1,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Portable carrier",
                             Image = "carrier_box.jpg",
                             Name = "Carrier Box",
                             Price = 35.0,
                             Quantity = 30,
                             TypeSupply = 3,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Soft bristle brush",
                             Image = "cat_brush.jpg",
                             Name = "Cat Brush",
                             Price = 7.5,
                             Quantity = 80,
                             TypeSupply = 3,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         },
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494),
+                            CreatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105),
                             Description = "Healthy cat snacks",
                             Image = "cat_treats.jpg",
                             Name = "Cat Treats",
                             Price = 5.0,
                             Quantity = 120,
                             TypeSupply = 0,
-                            UpdatedAt = new DateTime(2025, 4, 19, 11, 22, 33, 306, DateTimeKind.Local).AddTicks(4494)
+                            UpdatedAt = new DateTime(2025, 4, 24, 14, 21, 19, 136, DateTimeKind.Local).AddTicks(7105)
                         });
                 });
 

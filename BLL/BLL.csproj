@@ -6,19 +6,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Services\Implementations\Shop\" />
-		<Folder Include="Services\Implementations\Pet\" />
-		<Folder Include="Services\Interfaces\Pet\" />
-		<Folder Include="Services\Interfaces\Shop\" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<ProjectReference Include="..\DAL\DAL.csproj" />
 		<ProjectReference Include="..\DTOs\DTOs.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.9.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.9.0" />
 	</ItemGroup>
 
 </Project>

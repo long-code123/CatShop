@@ -1,6 +1,6 @@
 ﻿using DAL.Constants;
 using DAL.Entities.Pet;
-using DAL.Entities.Supplies;
+using DAL.Entities.Shop;
 
 namespace DAL.Entities.Human
 {
